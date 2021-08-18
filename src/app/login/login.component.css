@@ -1,0 +1,125 @@
+.main-head {
+  box-shadow: 0 3px 8px rgba(0,0,0,.1);
+}
+
+.header {
+  margin-top: 100px;
+}
+
+  .header .container {
+    padding: 40px 0;
+  }
+
+.intro-text h1 {
+  font-size: 40px;
+  line-height: 48px;
+  color: #144499;
+  margin-top: 50px !important;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro-text p {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #627081;
+}
+
+.login-button {
+  max-width: 400px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 1999;
+  box-shadow: 0 2px 4px rgba(33,33,33,.45);
+  -webkit-box-shadow: 0 2px 4px rgba(33,33,33,.26);
+  -moz-box-shadow: 0 2px 4px rgba(33,33,33,.2);
+  -o-box-shadow: 0 2px 4px rgba(33,33,33,.2);
+  -ms-box-shadow: 0 2px 4px rgba(33,33,33,.2);
+  border: 1px dashed #05457b;
+}
+
+.leftlabel {
+  text-align: left;
+  color: #627081;
+}
+
+.inputcontrol {
+  margin-top: 12px;
+  color: #444;
+  width: 100%;
+  font-size: 1.2em;
+  padding: 15px;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #144499;
+}
+
+.btn {
+  padding: 15px 40px !important;
+  display: inline-block;
+  background: #144499;
+  border: 1px solid #144499;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+  .btn:hover {
+    color: #fff;
+    background: #13408f !important;
+  }
+
+.last-part {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #627081;
+}
+
+.last-part-stuff {
+  margin-top: 20px;
+  color: #08c;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 760px) {
+  .btn {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #info2 {
+    float: left;
+    text-align: center;
+    margin: 50px 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .story {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .story .avatar {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+  }
+}
+
+#reset {
+  display: none;
+}

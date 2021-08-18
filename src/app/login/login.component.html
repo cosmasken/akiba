@@ -1,0 +1,53 @@
+<header class="header">
+  <section class="intro-text _margin-100">
+    <div class="container">
+      <div class="user" id="enter">
+        <h1>Secure Login</h1>
+        <p>It's time to Save &amp; Invest</p>
+        <div align="center">
+          <div align="left" class="login-button">
+            <form [formGroup]="loginForm" (ngSubmit)="postdata(loginForm)" id="piggylinkform">
+              <label class="leftlabel"><b>Email or Phone Number</b></label>
+              <input type="text" class="inputcontrol largetext largetextcenter" name="email" id="email" value="" autocomplete="off" required="">
+              <br>
+              <br>
+              <label class="leftlabel"><b>Password</b></label>
+              <input type="password" class="inputcontrol largetext largetextcenter" name="password" id="password" required="">
+              <hr class="thhr">
+              <div class="form-group form-grouplast">
+                <input type="hidden" name="loginacc" value="1">
+                <input type="hidden" name="goto" >
+                <button type="submit" class="btn" id="login"><i class="fa fa-lock"></i> Secure Login</button>
+              </div>
+            </form>
+          </div>
+          <div class="last-part">
+            <a a routerLink="/register" class="last-part-stuff">Create an Account Instead</a> <br>
+            <a a routerLink="/register" class="last-part-stuff" id="forgot">Forgot Password?</a>
+          </div>
+        </div>
+      </div>
+      <div class="user" id="reset">
+        <h1>Reset Password</h1>
+        <p>Enter your email address below for instructions.</p>
+        <div align="center">
+          <div align="left" class="login-button">
+            <form action="" method="post" id="piggylinkform">
+              <label class="leftlabel"><b>Enter your PiggyVest Email</b></label>
+              <input type="text" class="inputcontrol largetext largetextcenter" name="email" id="email" value="" autocomplete="off" required="">
+              <hr class="thhr">
+              <div class="form-group form-grouplast">
+                <input type="hidden" name="loginacc" value="1">
+                <input type="hidden" name="goto" value="https://www.piggyvest.com/login">
+                <button type="submit" class="btn" id="login"><i class="fa fa-lock"></i> Send Instructions</button>
+              </div>
+            </form>
+          </div>
+          <div class="last-part">
+            <a href="login.html" class="last-part-stuff">Back to Login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</header>
